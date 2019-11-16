@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Digital Clock</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/icon" href="favicon-clock-o.ico">
+    <link rel="stylesheet" type="text/css" media="screen" href="clock.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 class="title">DIGITAL CLOCK</h2>
+        <div id="DateTimeInfo" class="date"></div>
+        <div id="LocalTime" class="clock"></div>
+        <div id="ConvertTime" class="clock"></div>
+
+        <div class="zones form-group">
+            <select id="mySelect" class="form-control" data-live-search="true"></select>
+        </div>
+
+        <div class="convertBtn">
+            <button onclick="onClickAction()" type="button" id="convertButton" class="btn btn-info">Convert</button>
+        </div>
+        <script src="clock.js"></script>
+
+</body>
+
+</html>

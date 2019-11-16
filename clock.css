@@ -1,0 +1,49 @@
+body {
+    background: whitesmoke;
+    background-image: url("worldmap.png");
+}
+
+.title {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(11, 105, 126);
+    font-family: Orbitron;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(11, 105, 126);
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
+
+.date {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(11, 105, 126);
+    font-size: 27px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
+
+.zones {
+    position: absolute;
+    top: 65%;
+    left: 47%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.convertBtn {
+    position: absolute;
+    top: 65%;
+    left: 58%;
+    transform: translateX(-50%) translateY(-50%);
+}
